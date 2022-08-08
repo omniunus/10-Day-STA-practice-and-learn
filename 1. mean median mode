@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+raw = scan(file='stdin')
+#print(raw)
+data = raw[2:length(raw)]
+#print(data)
+cat(mean(data),'\n')
+cat(median(data),'\n')
+# TABULATE create counts of the frequency of occurrence of a element in the vector, use it with which.max() or it displays ugly
+cat(which.max(tabulate(data)))
