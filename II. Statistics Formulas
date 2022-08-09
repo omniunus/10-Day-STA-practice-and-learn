@@ -1,0 +1,4 @@
+1. tabulate() counts the frequency of occurence of an element in a vector
+eg. which.max(tabulate(X)) gives the element in X which appears the most freq
+
+2. 
