@@ -1,0 +1,20 @@
+I. Import data 
+  1. scan(file ='xxx') 
+     rawdata = scan(file='stdin')
+  2. readline(x)
+     rawdata = file('stdin')
+     open (rawdata)
+     readlines(rawdata,n=1,warn=FALSE)
+ 
+ II. Clean the data
+  1. trimws() to remove white spaces
+     trimws(x, which = c("both", "left", "right"), whitespace = "[ \t\r\n]")
+     trimws(x) by default rm both sides' which spaces
+  2. strsplit() to split character vecor x into substrings
+     strsplit(x, split, fixed = FALSE, perl = FALSE, useBytes = FALSE)
+     strsplit(x,' ')
+  3. as.integer(x) to transfer sth into integers
+
+III. Output a nice looking number
+use cat(), cat is life-saving when a function returns horrible strings
+
