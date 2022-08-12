@@ -1,0 +1,2 @@
+the by hands calc of sd is biased. R does the right sd. 
+If wish to return a by hand sd, use sd() * sqrt((n-1)/n)
